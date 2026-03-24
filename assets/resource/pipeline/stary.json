@@ -1,0 +1,12 @@
+{
+    "启动应用": {
+        "action": {
+            "type": "StartApp",
+            "param": {
+                "package": "com.gof.china"
+            }
+        }
+    }
+}
+//无尽冬日
+// com.gof.china
