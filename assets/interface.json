@@ -61,7 +61,7 @@
     "task": [
         {
             "name": "进入游戏",
-            "entry": "MyTask1"
+            "entry": "启动应用"
         },
         {
             "name": "选项任务",
