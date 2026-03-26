@@ -19,8 +19,8 @@
     "controller": [
         {
             "name": "安卓端",
-            "type": "Adb",
-            "display_short_side": 1080 // 默认缩放分辨率的短边长度
+            "type": "Adb"
+            // 默认缩放分辨率的短边长度
         },
         {
             "name": "桌面端",
