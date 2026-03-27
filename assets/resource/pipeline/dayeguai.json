@@ -44,6 +44,7 @@
                 ]
             }
         },
+        ///这里就是搜索巨兽
         "action": {
             "type": "Click",
             "param": {}
@@ -84,6 +85,7 @@
             "type": "Click",
             "param": {}
         },
+        "repeat_delay": 15500,
         "next": [
             "修改队伍人数",
             "人数变成1"
