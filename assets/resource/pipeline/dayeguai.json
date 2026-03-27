@@ -1,0 +1,71 @@
+{
+    "搜索按钮": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "搜索按钮.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {}
+        },
+        "repeat_delay": 1000,
+        "rate_limit": 1000,
+        "next": [
+            "点击巨兽"
+        ]
+    },
+    "点击巨兽": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "巨兽.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {}
+        },
+        "next": [
+            "搜索巨兽"
+        ]
+    },
+    "搜索巨兽": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "搜索.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {}
+        },
+        "repeat_delay": 500,
+        "next": [
+            "成功搜索集结"
+        ]
+    },
+    "成功搜索集结": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "集结.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {}
+        },
+        "repeat_delay": 500
+    }
+}
