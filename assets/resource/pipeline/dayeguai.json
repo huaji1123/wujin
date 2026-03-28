@@ -25,7 +25,6 @@
                 "template": [
                     "巨兽.png"
                 ],
-                "threshold": 0.85
             }
         },
         "action": {
@@ -108,7 +107,7 @@
                 "template": [
                     "改人数.png"
                 ],
-                "threshold": 0.8
+                "threshold": 0.95,
             }
         },
         "action": {
