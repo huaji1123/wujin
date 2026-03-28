@@ -5,16 +5,15 @@
             "param": {
                 "template": [
                     "搜索按钮.png"
-                ]
+                ],
             }
         },
         "action": {
             "type": "Click",
             "param": {}
         },
+        "pre_wait_freezes": 300,
         "post_delay": 800,
-        "repeat_delay": 1000,
-        "rate_limit": 1000,
         "next": [
             "点击巨兽"
         ]
@@ -25,13 +24,15 @@
             "param": {
                 "template": [
                     "巨兽.png"
-                ]
+                ],
+                "threshold": 0.85
             }
         },
         "action": {
             "type": "Click",
             "param": {}
         },
+        "pre_wait_freezes": 300,
         "post_delay": 600,
         "next": [
             "搜索巨兽"
@@ -43,13 +44,15 @@
             "param": {
                 "template": [
                     "搜索.png"
-                ]
+                ],
+                "threshold": 0.85
             }
         },
         "action": {
             "type": "Click",
             "param": {}
         },
+        "pre_wait_freezes": 300,
         "post_delay": 700,
         "repeat_delay": 500,
         "next": [
@@ -62,14 +65,16 @@
             "param": {
                 "template": [
                     "集结.png"
-                ]
+                ],
+                "threshold": 0.85
             }
         },
         "action": {
             "type": "Click",
             "param": {}
         },
-        "post_delay": 750,
+        "pre_wait_freezes": 300,
+        "post_delay": 500,
         "repeat_delay": 500,
         "next": [
             "发起集结"
@@ -81,18 +86,19 @@
             "param": {
                 "template": [
                     "发起集结.png"
-                ]
+                ],
+                "threshold": 0.85
             }
         },
         "action": {
             "type": "Click",
             "param": {}
         },
-        "post_delay": 900,
+        "pre_wait_freezes": 500,
+        "post_delay": 1000,
         "repeat_delay": 15500,
         "next": [
-            "修改队伍人数",
-            "人数变成 1"
+            "修改队伍人数"
         ]
     },
     "修改队伍人数": {
@@ -101,14 +107,19 @@
             "param": {
                 "template": [
                     "改人数.png"
-                ]
+                ],
+                "threshold": 0.8,
             }
         },
         "action": {
             "type": "Click",
             "param": {}
         },
-        "post_delay": 650
+        "pre_wait_freezes": 800,
+        "post_delay": 1500,
+        "next": [
+            "人数变成 1"
+        ]
     },
     "人数变成 1": {
         "recognition": {
@@ -116,13 +127,15 @@
             "param": {
                 "template": [
                     "增加人数.png"
-                ]
+                ],
+                "threshold": 0.95
             }
         },
         "action": {
             "type": "Click",
             "param": {}
         },
+        "pre_wait_freezes": 500,
         "post_delay": 550,
         "next": [
             "出征"
@@ -134,13 +147,15 @@
             "param": {
                 "template": [
                     "出征.png"
-                ]
+                ],
+                "threshold": 0.85
             }
         },
         "action": {
             "type": "Click",
             "param": {}
         },
+        "pre_wait_freezes": 300,
         "post_delay": 800
     }
 }
