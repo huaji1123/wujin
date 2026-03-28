@@ -5,7 +5,8 @@
             "param": {
                 "package": "com.gof.china"
             }
-        }
+        },
+        "post_delay": 15000
     }
 }
 //无尽冬日
