@@ -60,11 +60,16 @@
     "task": [
         {
             "name": "进入游戏",
-            "entry": "启动应用"
+            "entry": "启动应用",
         },
         {
             "name": "打巨兽",
             "entry": "搜索按钮",
+            "pipeline_override": {
+                "$include": [
+                    "pipeline/dayeguai.json"
+                ]
+            }
         },
         {
             "name": "参数任务",
