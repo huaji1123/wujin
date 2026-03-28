@@ -5,7 +5,7 @@
             "param": {
                 "template": [
                     "搜索按钮.png"
-                ],
+                ]
             }
         },
         "action": {
@@ -108,7 +108,7 @@
                 "template": [
                     "改人数.png"
                 ],
-                "threshold": 0.8,
+                "threshold": 0.8
             }
         },
         "action": {
