@@ -12,6 +12,7 @@
             "type": "Click",
             "param": {}
         },
+        "post_delay": 800,
         "repeat_delay": 1000,
         "rate_limit": 1000,
         "next": [
@@ -31,6 +32,7 @@
             "type": "Click",
             "param": {}
         },
+        "post_delay": 600,
         "next": [
             "搜索巨兽"
         ]
@@ -44,11 +46,11 @@
                 ]
             }
         },
-        ///这里就是搜索巨兽
         "action": {
             "type": "Click",
             "param": {}
         },
+        "post_delay": 700,
         "repeat_delay": 500,
         "next": [
             "成功搜索集结"
@@ -67,6 +69,7 @@
             "type": "Click",
             "param": {}
         },
+        "post_delay": 750,
         "repeat_delay": 500,
         "next": [
             "发起集结"
@@ -85,10 +88,11 @@
             "type": "Click",
             "param": {}
         },
+        "post_delay": 900,
         "repeat_delay": 15500,
         "next": [
             "修改队伍人数",
-            "人数变成1"
+            "人数变成 1"
         ]
     },
     "修改队伍人数": {
@@ -103,14 +107,15 @@
         "action": {
             "type": "Click",
             "param": {}
-        }
+        },
+        "post_delay": 650
     },
-    "人数变成1": {
+    "人数变成 1": {
         "recognition": {
             "type": "TemplateMatch",
             "param": {
                 "template": [
-                    "1个人.png"
+                    "增加人数.png"
                 ]
             }
         },
@@ -118,6 +123,7 @@
             "type": "Click",
             "param": {}
         },
+        "post_delay": 550,
         "next": [
             "出征"
         ]
@@ -134,6 +140,7 @@
         "action": {
             "type": "Click",
             "param": {}
-        }
+        },
+        "post_delay": 800
     }
 }
