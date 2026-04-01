@@ -60,32 +60,18 @@
     "task": [
         {
             "name": "进入游戏",
-            "entry": "启动应用",
-            "pipeline_override": {
-                "$include": [
-                    "pipeline/start.json"
-                ]
-            }
+            "entry": "启动应用"
         },
         {
             "name": "打巨兽",
-            "entry": "搜索按钮",
-            "pipeline_override": {
-                "$include": [
-                    "pipeline/dayeguai.json"
-                ]
-            }
+            "entry": "搜索按钮"
         },
         {
             "name": "参数任务",
-            "entry": "MyTask3",
-            "option": [
-                "任务选项1"
-            ],
-            "pipeline_override": {}
+            "entry": "MyTask3"
         },
         {
-            "name": "带Custom的任务",
+            "name": "带 Custom 的任务",
             "entry": "MyTask4"
         }
     ],
