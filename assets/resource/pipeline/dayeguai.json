@@ -12,7 +12,7 @@
             "type": "Click",
             "param": {}
         },
-        "pre_wait_freezes": 300,
+        "pre_wait_freezes": 800,
         "post_delay": 800,
         "next": [
             "点击巨兽"
@@ -31,7 +31,7 @@
             "type": "Click",
             "param": {}
         },
-        "pre_wait_freezes": 300,
+        "pre_wait_freezes": 800,
         "post_delay": 600,
         "next": [
             "搜索巨兽"
@@ -53,7 +53,7 @@
         },
         "pre_wait_freezes": 300,
         "post_delay": 700,
-        "repeat_delay": 500,
+        "repeat_delay": 800,
         "next": [
             "成功搜索集结"
         ]
@@ -72,7 +72,7 @@
             "type": "Click",
             "param": {}
         },
-        "pre_wait_freezes": 300,
+        "pre_wait_freezes": 800,
         "post_delay": 500,
         "repeat_delay": 500,
         "next": [
@@ -95,7 +95,7 @@
         },
         "pre_wait_freezes": 500,
         "post_delay": 1000,
-        "repeat_delay": 15500,
+        "repeat_delay": 1500,
         "next": [
             "修改队伍人数"
         ]
