@@ -15,3 +15,18 @@ class MyCustomAction(CustomAction):
         print("my_action_111 is running!")
 
         return True
+
+
+@AgentServer.custom_action("loop")
+class LoopAction(CustomAction):
+
+    def run(
+        self,
+        context: Context,
+        argv: CustomAction.RunArg,
+    ) -> bool:
+
+        times = argv.param.get("times", 1)
+        for i in range(times):
+            context.run_task("搜索按钮")
+        return True

@@ -64,7 +64,7 @@
         },
         {
             "name": "打巨兽",
-            "entry": "搜索按钮"
+            "entry": "循环"
         },
         {
             "name": "参数任务",
@@ -92,6 +92,35 @@
                     "pipeline_override": {
                         "OcrTask": {
                             "text": "文本2"
+                        }
+                    }
+                }
+            ]
+        },
+        "打巨兽循环次数": {
+            "type": "select",
+            "cases": [
+                {
+                    "name": "5次",
+                    "pipeline_override": {
+                        "循环": {
+                            "action": {
+                                "param": {
+                                    "times": 5
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "6次",
+                    "pipeline_override": {
+                        "循环": {
+                            "action": {
+                                "param": {
+                                    "times": 6
+                                }
+                            }
                         }
                     }
                 }

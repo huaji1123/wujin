@@ -156,5 +156,14 @@
         },
         "pre_wait_freezes": 300,
         "post_delay": 800
+    },
+    "循环": {
+        "action": {
+            "type": "Custom",
+            "param": {
+                "action": "loop",
+                "times": 1
+            }
+        }
     }
 }
