@@ -64,7 +64,7 @@
         },
         {
             "name": "打巨兽",
-            "entry": "循环"
+            "entry": "搜索按钮"
         },
         {
             "name": "参数任务",
@@ -98,33 +98,23 @@
             ]
         },
         "打巨兽循环次数": {
-            "type": "select",
-            "cases": [
+            "type": "input",
+            "description": "设置打巨兽任务的执行次数",
+            "inputs": [
                 {
-                    "name": "5次",
-                    "pipeline_override": {
-                        "循环": {
-                            "action": {
-                                "param": {
-                                    "times": 5
-                                }
-                            }
-                        }
-                    }
-                },
-                {
-                    "name": "6次",
-                    "pipeline_override": {
-                        "循环": {
-                            "action": {
-                                "param": {
-                                    "times": 6
-                                }
-                            }
+                    "name": "循环次数",
+                    "default": "1"
+                }
+            ],
+            "pipeline_override": {
+                "搜索按钮": {
+                    "action": {
+                        "custom_action_param": {
+                            "times": "${value}"
                         }
                     }
                 }
-            ]
+            }
         }
     }
 }
